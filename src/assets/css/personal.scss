@@ -1,0 +1,103 @@
+@import "min";
+.whole{
+  width:100%;
+  overflow:hidden;
+  margin:0 auto;
+}
+.k-title{
+  width:100%;
+  height:auto;
+  overflow:hidden;
+  font-size:pxTorem(38);
+  text-align:center;
+  line-height:pxTorem(368);
+  color:#fff;
+}
+
+.login-form{
+  width:pxTorem(534);
+  height:auto;
+  margin:0 auto;
+}
+.common-div{
+  width:100%;
+  height:pxTorem(95);
+  overflow:hidden;
+  border-radius:4px;
+  -webkit-border-radius:4px;
+  margin-bottom:pxTorem(48);
+  position:relative;
+}
+.user-name,.user-pasw{
+  background-color:rgba(255,255,255,0.1);
+}
+.common-div >.common-icon{
+  float:left;
+  width:pxTorem(44);
+  height:pxTorem(44);
+  overflow:hidden;
+  margin:pxTorem(19);
+}
+.common-div >.common-icon img{
+  width:100%;
+  height:auto;
+}
+.common-div >input{
+  float:left;
+  width:pxTorem(360);
+  height:pxTorem(56);
+  margin:pxTorem(19) pxTorem(12);
+  background-color:transparent;
+  border:none;
+  outline:none;
+  font-size:pxTorem(30);
+  color:#fff;
+}
+.login-btn{
+  background-color:#0bd38a;
+  color:#fff;
+  font-size:pxTorem(28);
+  text-align:center;
+  line-height:pxTorem(94);
+}
+.forgets{
+  width:pxTorem(520);
+  height:auto;
+  margin:0 auto;
+}
+.forgets >a{
+  color:#fff;
+  opacity:0.4;
+  font-size:pxTorem(25);
+}
+.forgets >a +a{
+  float:right;
+}
+
+/***layer css***/
+.layui-m-layercont,.layui-m-layerbtn >span{
+  font-size: pxTorem(24) !important;
+}
+.get-code{
+  color: #fff;
+  position: absolute;
+  right: pxTorem(20);
+  top: pxTorem(24);
+  font-size: pxTorem(26);
+}
+
+// qq或微信登入
+.qqorweixin{
+  float: left;
+}
+.qqorweixin li{
+  float: left;
+  width:  pxTorem(60);
+  height: pxTorem(60);
+  margin-left: pxTorem(20);
+}
+.qqorweixin li img{
+  width: 100%;
+  height: auto;
+}
+

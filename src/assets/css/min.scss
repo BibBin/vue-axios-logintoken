@@ -1,0 +1,12 @@
+//基础font-size
+$font:16;
+//设计稿宽度
+$screen:750;
+//主色
+$bColor: #323542;
+$fontC:#fff;
+
+
+@function pxTorem($px){
+ @return $px/($screen*$font/320) * 1rem; 
+}
