@@ -1,4 +1,8 @@
+##温馨提示axios配置路径
+src/utils/httpconfig.js
 
+// 默认配置
+axios.defaults.baseURL = 'http://www.xxxx.com'//这里是放实际的URI，公司项目我这边就不写啦，免的被人打
 ## Build Setup
 
 ``` bash
